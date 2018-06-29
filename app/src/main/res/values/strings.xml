@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="county_eastern"><![CDATA[County & Eastern]]></string>
+    <string name="kingdom_northern"><![CDATA[Kingdom & Northern]]></string>
+    <string name="land_southern"><![CDATA[Land & Southern]]></string>
+    <string name="county_western"><![CDATA[County & Western]]></string>
+</resources>

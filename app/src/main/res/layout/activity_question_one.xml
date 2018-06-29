@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".QuestionOneActivity">
+
+    <TextView
+        android:id="@+id/question_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"
+        android:inputType="textCapWords"
+        android:text="Question 1"
+        android:textColor="#FFFFFF"
+        android:textSize="48dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/question_one"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#FFFFFF" />
+
+
+    <TextView
+        android:id="@+id/question_one_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question_one"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="People who are in a similar unfavourable situation are said to be 'all in the same ...'?"
+        android:textColor="#FFFFFF"
+        android:textSize="28dp" />
+
+    <View
+        android:id="@+id/second_view_tag"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/question_one_text"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF" />
+
+    <RadioGroup
+        android:id="@+id/radio_button_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/second_view_tag">
+
+
+        <RadioButton
+            android:id="@+id/car_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question_one_text"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="8dp"
+            android:text="Car"
+            android:textColor="#FFFFFF"
+            android:textSize="28dp" />
+
+        <RadioButton
+            android:id="@+id/plane_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/car_radio_button"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="8dp"
+            android:text="Plane"
+            android:textColor="#FFFFFF"
+            android:textSize="28dp" />
+
+        <RadioButton
+            android:id="@+id/boat_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question_one_text"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@id/car_radio_button"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="8dp"
+            android:text="Boat"
+            android:textColor="#FFFFFF"
+            android:textSize="28dp" />
+
+        <RadioButton
+            android:id="@+id/tube_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/boat_radio_button"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="8dp"
+            android:text="Tube"
+            android:textColor="#FFFFFF"
+            android:textSize="28dp" />
+    </RadioGroup>
+
+    <View
+        android:id="@+id/third_view_tag"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/radio_button_group"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button_view"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/third_view_tag"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_round"
+        android:fontFamily="sans-serif-light"
+        android:inputType="textCapWords"
+        android:onClick="startQuestionTwo"
+        android:text="Next >>"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp" />
+</RelativeLayout>

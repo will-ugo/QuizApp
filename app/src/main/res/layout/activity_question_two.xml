@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".QuestionTwoActivity">
+
+    <TextView
+        android:id="@+id/question_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif-light"
+        android:inputType="textCapWords"
+        android:text="Question 2"
+        android:textColor="#FFFFFF"
+        android:textSize="48dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/question_two"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#FFFFFF" />
+
+
+    <TextView
+        android:id="@+id/question_two_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question_two"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Which character was played by Arnold Schwarzwnegger in a film?"
+        android:textColor="#FFFFFF"
+        android:textSize="28dp" />
+
+    <View
+        android:id="@+id/second_view_tag"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/question_two_text"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF" />
+
+    <RadioGroup
+        android:id="@+id/radio_button_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/second_view_tag">
+
+        <RadioButton
+            android:id="@+id/demonstrator_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/second_view_tag"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="8dp"
+            android:text="The Demonstrator"
+            android:textColor="#FFFFFF"
+            android:textSize="28dp" />
+
+        <RadioButton
+            android:id="@+id/eliminator_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/demonstrator_radio_button"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="8dp"
+            android:text="The Eliminator"
+            android:textColor="#FFFFFF"
+            android:textSize="28dp" />
+
+        <RadioButton
+            android:id="@+id/investigator_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/second_view_tag"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="8dp"
+            android:text="The Investigator"
+            android:textColor="#FFFFFF"
+            android:textSize="28dp" />
+
+        <RadioButton
+            android:id="@+id/terminator_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/investigator_radio_button"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="8dp"
+            android:text="The Terminator"
+            android:textColor="#FFFFFF"
+            android:textSize="28dp" />
+    </RadioGroup>
+
+    <View
+        android:id="@+id/third_view_tag"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/radio_button_group"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/button_view"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/third_view_tag"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_round"
+        android:fontFamily="sans-serif-light"
+        android:inputType="textCapWords"
+        android:onClick="startQuestionThree"
+        android:text="Next >>"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp" />
+</RelativeLayout>

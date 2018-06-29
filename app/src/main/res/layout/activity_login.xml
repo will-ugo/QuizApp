@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/udacity_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/udacity" />
+
+    <TextView
+        android:id="@+id/textview_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/udacity_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-ligh"
+        android:text="Udacity Quiz App"
+        android:textColor="#faebd7"
+        android:textSize="36dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name_view"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/textview_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:ems="10"
+        android:fontFamily="sans-serif-light"
+        android:hint="Name"
+        android:inputType="textCapWords"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="28dp" />
+
+    <Button
+        android:id="@+id/button_view"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/name_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_round"
+        android:fontFamily="sans-serif-light"
+        android:inputType="textCapWords"
+        android:text="Go!"
+        android:onClick="startQuestionOne"
+        android:textSize="28dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:fontFamily="sans-serif-light"
+        android:text="powered by: @William"
+        android:textColor="#faebd7" />
+</RelativeLayout>
