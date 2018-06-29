@@ -1,6 +1,6 @@
 # QuizApp
 This is a Quiz App by William Ugonna Geoffrey-Nwankaji. It involves the user answering ten questions. Most questions are answered by the 
-click of a radio button. At the endo i=of the quiz, the app displays the summary which includes the User name and Score.
+click of a radio button. At the end of the quiz, the app displays the summary which includes the User name and Score.
 
 INSTALLATION NOTE
 1. Download APK 
