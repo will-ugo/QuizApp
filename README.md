@@ -10,3 +10,7 @@ If you download the App from a messenger, and cannot install, Open Eile Explorer
 Quiz App.apk, install the APK.
 
 You can send feedback to ugonnagharanya@gmail.com.
+
+The app APK can be found at https://drive.google.com/open?id=1bNhXILFCb15-MnOj4s6ImknRlQTXpJa0 for download.
+
+Thank you!
